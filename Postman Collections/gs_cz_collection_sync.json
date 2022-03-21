@@ -3608,23 +3608,30 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "{{webhook}}/gostudy.user.meeting.set?dealId=22701&meetingId=41737",
+              "raw": "{{webhook}}/gostudy.user.meeting.updatetime?meetingId=69800&date_from=08.04.2022 15:33:00&date_to=08.04.2022 16:44:00",
               "host": [
                 "{{webhook}}"
               ],
               "path": [
-                "gostudy.user.meeting.set"
+                "gostudy.user.meeting.updatetime"
               ],
               "query": [
                 {
-                  "key": "dealId",
-                  "value": "22701",
-                  "description": "id сделки"
+                  "key": "meetingId",
+                  "value": "69800",
+                  "description": "id консультации"
                 },
                 {
-                  "key": "meetingId",
-                  "value": "41737",
-                  "description": "id консультации"
+                  "key": "date_from",
+                  "value": "08.04.2022 15:33:00",
+                  "description": "дата/время начала консультации",
+                  "type": "text"
+                },
+                {
+                  "key": "date_to",
+                  "value": "08.04.2022 16:44:00",
+                  "description": "дата/время конца консультации",
+                  "type": "text"
                 }
               ]
             }
