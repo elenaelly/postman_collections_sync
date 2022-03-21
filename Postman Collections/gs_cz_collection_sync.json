@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "_postman_id": "8377493c-3657-4841-8155-3cbade91a9b8",
+              "id": "8377493c-3657-4841-8155-3cbade91a9b8",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -35,10 +35,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "",
-                  "options": {
-                    "raw": {}
-                  }
+                  "raw": ""
                 },
                 "url": "{{webhook}}/gostudy.promotions.list"
               },
@@ -150,7 +147,7 @@
                   }
                 }
               ],
-              "_postman_id": "a54a742a-9e41-45f0-9636-04a1536b5fb7",
+              "id": "a54a742a-9e41-45f0-9636-04a1536b5fb7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -484,7 +481,7 @@
             },
             {
               "name": "Показывать блок с акцией в КС - gostudy.deal.specialoffers.status",
-              "_postman_id": "f8dd0113-0ca6-45c9-9d2e-196cfd975389",
+              "id": "f8dd0113-0ca6-45c9-9d2e-196cfd975389",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -512,7 +509,7 @@
             },
             {
               "name": "Отменить участие в промоакции - gostudy.promotions.cancel",
-              "_postman_id": "7095e703-5f42-4444-8a76-e1cf3e64673e",
+              "id": "7095e703-5f42-4444-8a76-e1cf3e64673e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -858,8 +855,7 @@
               ]
             }
           ],
-          "_postman_id": "a9a4060d-7e31-47d3-9bd2-bd5c745a0729",
-          "_postman_isSubFolder": true
+          "id": "a9a4060d-7e31-47d3-9bd2-bd5c745a0729"
         },
         {
           "name": "Промокод (Code)",
@@ -880,7 +876,7 @@
                   }
                 }
               ],
-              "_postman_id": "96ef8386-8440-4083-90f1-960650135a64",
+              "id": "96ef8386-8440-4083-90f1-960650135a64",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1621,7 +1617,7 @@
                   }
                 }
               ],
-              "_postman_id": "0af7b3a0-9d2b-40b4-b054-c937e586200a",
+              "id": "0af7b3a0-9d2b-40b4-b054-c937e586200a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1649,10 +1645,7 @@
                       "type": "text",
                       "description": "id контакта"
                     }
-                  ],
-                  "options": {
-                    "formdata": {}
-                  }
+                  ]
                 },
                 "url": {
                   "raw": "{{webhook}}/gostudy.promotions.add",
@@ -1713,10 +1706,7 @@
                           "type": "text",
                           "description": "id контакта"
                         }
-                      ],
-                      "options": {
-                        "formdata": {}
-                      }
+                      ]
                     },
                     "url": {
                       "raw": "{{webhook}}/gostudy.promotions.add",
@@ -1849,10 +1839,7 @@
                           "type": "text",
                           "description": "id контакта"
                         }
-                      ],
-                      "options": {
-                        "formdata": {}
-                      }
+                      ]
                     },
                     "url": {
                       "raw": "{{webhook}}/gostudy.promotions.add",
@@ -1985,10 +1972,7 @@
                           "description": "id контакта",
                           "disabled": true
                         }
-                      ],
-                      "options": {
-                        "formdata": {}
-                      }
+                      ]
                     },
                     "url": {
                       "raw": "{{webhook}}/gostudy.promotions.add",
@@ -2120,10 +2104,7 @@
                           "type": "text",
                           "description": "id контакта"
                         }
-                      ],
-                      "options": {
-                        "formdata": {}
-                      }
+                      ]
                     },
                     "url": {
                       "raw": "{{webhook}}/gostudy.promotions.add",
@@ -2255,10 +2236,7 @@
                           "type": "text",
                           "description": "id контакта"
                         }
-                      ],
-                      "options": {
-                        "formdata": {}
-                      }
+                      ]
                     },
                     "url": {
                       "raw": "{{webhook}}/gostudy.promotions.add",
@@ -2374,11 +2352,10 @@
               ]
             }
           ],
-          "_postman_id": "5b2f2d0c-afe1-4292-89b5-2a39fb7b10c5",
-          "_postman_isSubFolder": true
+          "id": "5b2f2d0c-afe1-4292-89b5-2a39fb7b10c5"
         }
       ],
-      "_postman_id": "5d898125-54ad-4f31-becb-6e9b6484111e"
+      "id": "5d898125-54ad-4f31-becb-6e9b6484111e"
     },
     {
       "name": "Бронирования (Reservation)",
@@ -2399,7 +2376,7 @@
               }
             }
           ],
-          "_postman_id": "2056d2b2-8d53-4d95-b0b7-c3220dff5429",
+          "id": "2056d2b2-8d53-4d95-b0b7-c3220dff5429",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2454,10 +2431,7 @@
                   "type": "text",
                   "description": "дата (до)"
                 }
-              ],
-              "options": {
-                "urlencoded": {}
-              }
+              ]
             },
             "url": "https://isdev.gostudy.cz/method/"
           },
@@ -2479,7 +2453,7 @@
               }
             }
           ],
-          "_postman_id": "8ca0ee78-f290-40e7-9a1d-2b675ecd1410",
+          "id": "8ca0ee78-f290-40e7-9a1d-2b675ecd1410",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2516,10 +2490,7 @@
                   "type": "text",
                   "description": "id контакта"
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": {
               "raw": "https://isdev.gostudy.cz/method/",
@@ -2564,7 +2535,7 @@
           "response": []
         }
       ],
-      "_postman_id": "0a08464a-ec2b-4eb3-b261-1fd61dab0752"
+      "id": "0a08464a-ec2b-4eb3-b261-1fd61dab0752"
     },
     {
       "name": "Виза (Visa)",
@@ -2585,7 +2556,7 @@
               }
             }
           ],
-          "_postman_id": "7d708641-6964-4a21-a089-8176dcfa25b2",
+          "id": "7d708641-6964-4a21-a089-8176dcfa25b2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2614,7 +2585,7 @@
         },
         {
           "name": "Обновить визу - gostudy.visa.update",
-          "_postman_id": "4bd3e04d-d437-40f1-9ec4-b865341f0cd2",
+          "id": "4bd3e04d-d437-40f1-9ec4-b865341f0cd2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2626,14 +2597,14 @@
           "response": []
         }
       ],
-      "_postman_id": "f39e21a6-0fe6-4427-ac69-3bc86d34f846"
+      "id": "f39e21a6-0fe6-4427-ac69-3bc86d34f846"
     },
     {
       "name": "Группы Кабинета Студента (SC groups)",
       "item": [
         {
           "name": "Список групп КС - student.group.list",
-          "_postman_id": "01f0ff1d-e98b-4d01-a003-21bdfb2676bb",
+          "id": "01f0ff1d-e98b-4d01-a003-21bdfb2676bb",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2646,7 +2617,7 @@
         },
         {
           "name": "Добавить группу для студента - gostudy.student.group.add",
-          "_postman_id": "e3af94e6-b83c-4b45-a362-82e55d0e9fd1",
+          "id": "e3af94e6-b83c-4b45-a362-82e55d0e9fd1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2679,7 +2650,7 @@
         },
         {
           "name": "Обновить группу КС - gostudy.user.sc_group.update",
-          "_postman_id": "f80f4021-0328-4938-867b-6d0f43d8d14c",
+          "id": "f80f4021-0328-4938-867b-6d0f43d8d14c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2692,7 +2663,7 @@
         },
         {
           "name": "Удалить группу КС - gostudy.student.group.del",
-          "_postman_id": "0024bba5-619d-45ef-ab6f-4b37632b0d66",
+          "id": "0024bba5-619d-45ef-ab6f-4b37632b0d66",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2704,7 +2675,7 @@
           "response": []
         }
       ],
-      "_postman_id": "975e32a4-44ea-4274-8edd-176fdb6cd452"
+      "id": "975e32a4-44ea-4274-8edd-176fdb6cd452"
     },
     {
       "name": "Дела клиента (TODO)",
@@ -2725,7 +2696,7 @@
               }
             }
           ],
-          "_postman_id": "0daeb956-506d-46e5-8aca-cf6afd3c1d02",
+          "id": "0daeb956-506d-46e5-8aca-cf6afd3c1d02",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2768,7 +2739,7 @@
               }
             }
           ],
-          "_postman_id": "cbd655cb-7949-43f7-80a0-b91ed344cd06",
+          "id": "cbd655cb-7949-43f7-80a0-b91ed344cd06",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2811,7 +2782,7 @@
               }
             }
           ],
-          "_postman_id": "05aa11fd-7b68-4c66-9065-11f8d5013197",
+          "id": "05aa11fd-7b68-4c66-9065-11f8d5013197",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2857,7 +2828,7 @@
               }
             }
           ],
-          "_postman_id": "244345f5-f94c-4a06-a8f1-bb2cef1689dc",
+          "id": "244345f5-f94c-4a06-a8f1-bb2cef1689dc",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2899,7 +2870,7 @@
               }
             }
           ],
-          "_postman_id": "8e333c0d-04a0-44cc-87b7-04bf892fb2fe",
+          "id": "8e333c0d-04a0-44cc-87b7-04bf892fb2fe",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2908,10 +2879,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"id\": \"234701\",\r\n    \"fields\": {\r\n        \"NAME\" : \"lalala\"\r\n    }\r\n}\r\n",
-              "options": {
-                "raw": {}
-              }
+              "raw": "{\r\n    \"id\": \"234701\",\r\n    \"fields\": {\r\n        \"NAME\" : \"lalala\"\r\n    }\r\n}\r\n"
             },
             "url": {
               "raw": "{{webhook}}/gostudy.todo.ready/?id=210414",
@@ -2949,7 +2917,7 @@
               }
             }
           ],
-          "_postman_id": "ed63b178-4a1a-46ad-a65c-7040c0bea42d",
+          "id": "ed63b178-4a1a-46ad-a65c-7040c0bea42d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2977,10 +2945,7 @@
                   "type": "text",
                   "disabled": true
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": "{{webhook}}/gostudy.todo.update/"
           },
@@ -2988,7 +2953,7 @@
         },
         {
           "name": "Добавить комментарий к делу - gostudy.todo.comment.add",
-          "_postman_id": "0a41b858-d6d1-4e32-b833-0d18f65cac75",
+          "id": "0a41b858-d6d1-4e32-b833-0d18f65cac75",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3026,14 +2991,14 @@
           "response": []
         }
       ],
-      "_postman_id": "7c6db6ad-de77-49f2-af34-fd27a7f7054a"
+      "id": "7c6db6ad-de77-49f2-af34-fd27a7f7054a"
     },
     {
       "name": "Комиссионные планы для партнера (Comission Plans)",
       "item": [
         {
           "name": "История смены планов - gostudy.commission_plans.history",
-          "_postman_id": "24be690c-7adf-4290-9e66-8386f7871b9a",
+          "id": "24be690c-7adf-4290-9e66-8386f7871b9a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3166,7 +3131,7 @@
         },
         {
           "name": "Список комиссионных планов - gostudy.commission_plans.list",
-          "_postman_id": "4c02f375-d8bd-49fe-81d3-8c65db6d252e",
+          "id": "4c02f375-d8bd-49fe-81d3-8c65db6d252e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3269,7 +3234,7 @@
         },
         {
           "name": "Изменить комиссионный план - gostudy.commission_plans.change",
-          "_postman_id": "0c38867d-2af0-46d5-97b9-7d9b39fad3ab",
+          "id": "0c38867d-2af0-46d5-97b9-7d9b39fad3ab",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3413,14 +3378,14 @@
           ]
         }
       ],
-      "_postman_id": "a4b09536-9639-4ad3-a0f8-e53e7f14a474"
+      "id": "a4b09536-9639-4ad3-a0f8-e53e7f14a474"
     },
     {
       "name": "Константы (Constants)",
       "item": [
         {
           "name": "Константы сущностей - gostudy.get.constants",
-          "_postman_id": "ded18f38-7a2e-4fcb-a6a1-24f9d374137f",
+          "id": "ded18f38-7a2e-4fcb-a6a1-24f9d374137f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3523,7 +3488,7 @@
           ]
         }
       ],
-      "_postman_id": "fbead479-5016-4cf8-935b-9953ded7a4e0",
+      "id": "fbead479-5016-4cf8-935b-9953ded7a4e0",
       "description": "Константы -  значения, которые невозможно изменить за весь жизненный цикл объекта."
     },
     {
@@ -3545,7 +3510,7 @@
               }
             }
           ],
-          "_postman_id": "2fc2de02-8f3d-47e6-b9a0-590ae1dec456",
+          "id": "2fc2de02-8f3d-47e6-b9a0-590ae1dec456",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3588,7 +3553,7 @@
               }
             }
           ],
-          "_postman_id": "022970f9-2fb1-4da3-a532-2de8d6bab558",
+          "id": "022970f9-2fb1-4da3-a532-2de8d6bab558",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3621,7 +3586,7 @@
         },
         {
           "name": "Удалить бронирование интервала для консультации - gostudy.user.meeting.delete",
-          "_postman_id": "75787cbc-e300-4582-8576-6375d093cefa",
+          "id": "75787cbc-e300-4582-8576-6375d093cefa",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3753,9 +3718,56 @@
               "body": "{\n    \"result\": null,\n    \"time\": {\n        \"start\": 1646852809.311695,\n        \"finish\": 1646852809.513327,\n        \"duration\": 0.20163178443908691,\n        \"processing\": 0.1682291030883789,\n        \"date_start\": \"2022-03-09T20:06:49+01:00\",\n        \"date_finish\": \"2022-03-09T20:06:49+01:00\"\n    }\n}"
             }
           ]
+        },
+        {
+          "name": "Занять интервал для консультации сделкой - gostudy.user.meeting.set Copy",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "2e2ec0b6-2105-4289-98dd-0f4fedcb19c0",
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {\r",
+                  "    pm.response.to.have.status(200);\r",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "02fdbd00-d01a-4bf8-a408-38231924c8ea",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{webhook}}/gostudy.user.meeting.set?dealId=22701&meetingId=41737",
+              "host": [
+                "{{webhook}}"
+              ],
+              "path": [
+                "gostudy.user.meeting.set"
+              ],
+              "query": [
+                {
+                  "key": "dealId",
+                  "value": "22701",
+                  "description": "id сделки"
+                },
+                {
+                  "key": "meetingId",
+                  "value": "41737",
+                  "description": "id консультации"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
-      "_postman_id": "6c521f0e-caef-47b7-a8d9-32c59f37f4c7"
+      "id": "6c521f0e-caef-47b7-a8d9-32c59f37f4c7"
     },
     {
       "name": "Контакты (Contacts)",
@@ -3776,7 +3788,7 @@
               }
             }
           ],
-          "_postman_id": "22f37360-6649-4591-b1ed-17b0be0faf45",
+          "id": "22f37360-6649-4591-b1ed-17b0be0faf45",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3804,7 +3816,7 @@
               }
             }
           ],
-          "_postman_id": "03d68db2-e62c-45a5-a61e-6144faffac59",
+          "id": "03d68db2-e62c-45a5-a61e-6144faffac59",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3855,7 +3867,7 @@
               }
             }
           ],
-          "_postman_id": "44b6231d-a924-45b1-918c-b842451748a0",
+          "id": "44b6231d-a924-45b1-918c-b842451748a0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3909,7 +3921,7 @@
           "response": []
         }
       ],
-      "_postman_id": "5b412877-1189-4f67-8dba-1d43eea38728",
+      "id": "5b412877-1189-4f67-8dba-1d43eea38728",
       "description": "**Контакт** \\- это сведения о человеке: Ф.И.О, анкетные, контактные, паспортные и все коммуникации, которые записаны в личную карточку физического лица и сохраненные в базе данных Битрикс24 в сущности Контакт."
     },
     {
@@ -3931,7 +3943,7 @@
               }
             }
           ],
-          "_postman_id": "9a63f1db-ef49-4af9-a527-dfdd6dc32b3f",
+          "id": "9a63f1db-ef49-4af9-a527-dfdd6dc32b3f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3974,7 +3986,7 @@
               }
             }
           ],
-          "_postman_id": "add2a07c-7bee-4535-a2f5-dce885aac357",
+          "id": "add2a07c-7bee-4535-a2f5-dce885aac357",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3995,10 +4007,7 @@
                   "description": "29370 Комплексная медицинская страховка Maxima\n\n44683 Комплексная страховка MAXIMA до 30 лет на 7 месяцев\n\n44684 Комплексная страховка MAXIMA до 31 года на 12 месяцев\n\n44680 Комплексная страховка MAXIMA до 31 года на 6 месяцев\n\n57214 Комплексная страховка MAXIMA на 12 месяцев\n\n57198 Комплексная страховка MAXIMA на 3 месяца\n\n57211 Комплексная страховка MAXIMA на 6 месяцев\n\n57212 Комплексная страховка MAXIMA на 7 месяцев\n\n57213 Комплексная страховка MAXIMA на 9 месяцев\n\n44685 Комплексная страховка MAXIMA от 31-50 лет на 12 месяцев\n\n199503 Страховка PVZP на 12 месяцев",
                   "type": "text"
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": "{{webhook}}/gostudy.medical.add/"
           },
@@ -4006,7 +4015,7 @@
         },
         {
           "name": "Оплатить страховку по id сделки - gostudy.medical.pay",
-          "_postman_id": "a41026ca-8c7c-4a0e-be24-5760a6f1665b",
+          "id": "a41026ca-8c7c-4a0e-be24-5760a6f1665b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4035,7 +4044,7 @@
         },
         {
           "name": "Подтвердить страховку - gostudy.medical.confirm -",
-          "_postman_id": "d4f183a6-5ab0-41b3-b02d-c1fd4b446a66",
+          "id": "d4f183a6-5ab0-41b3-b02d-c1fd4b446a66",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4063,7 +4072,7 @@
         },
         {
           "name": "Обновить страховку - gostudy.medical.update",
-          "_postman_id": "2592ce0d-d0e4-4530-b01f-950ad100c536",
+          "id": "2592ce0d-d0e4-4530-b01f-950ad100c536",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4095,7 +4104,7 @@
           "response": []
         }
       ],
-      "_postman_id": "8400491f-7635-4b5f-b021-c99a1f9579b5"
+      "id": "8400491f-7635-4b5f-b021-c99a1f9579b5"
     },
     {
       "name": "Мероприятия (Events)",
@@ -4116,7 +4125,7 @@
               }
             }
           ],
-          "_postman_id": "79cb79cb-b132-4ac1-a7fa-0b7f1249efe8",
+          "id": "79cb79cb-b132-4ac1-a7fa-0b7f1249efe8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4188,7 +4197,7 @@
           "response": []
         }
       ],
-      "_postman_id": "43f127ea-4b74-4afa-8b1f-79401ad1877f"
+      "id": "43f127ea-4b74-4afa-8b1f-79401ad1877f"
     },
     {
       "name": "Нострификация (Nostrification)",
@@ -4209,7 +4218,7 @@
               }
             }
           ],
-          "_postman_id": "cec1e5e4-f1d8-491e-a4e7-95c3b34e3753",
+          "id": "cec1e5e4-f1d8-491e-a4e7-95c3b34e3753",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4252,7 +4261,7 @@
               }
             }
           ],
-          "_postman_id": "507c7ec1-4f44-4c69-bf47-8ddab71e7b5e",
+          "id": "507c7ec1-4f44-4c69-bf47-8ddab71e7b5e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4295,7 +4304,7 @@
               }
             }
           ],
-          "_postman_id": "404128c4-e8e4-4edc-9f69-7aadb1748eec",
+          "id": "404128c4-e8e4-4edc-9f69-7aadb1748eec",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4342,7 +4351,7 @@
               }
             }
           ],
-          "_postman_id": "8631f2e9-936a-4601-91f1-b0c5a6a8103c",
+          "id": "8631f2e9-936a-4601-91f1-b0c5a6a8103c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4384,7 +4393,7 @@
               }
             }
           ],
-          "_postman_id": "20f6ccb1-da3e-4f1b-b8b1-fc52b52cbf61",
+          "id": "20f6ccb1-da3e-4f1b-b8b1-fc52b52cbf61",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4454,10 +4463,7 @@
                   "description": "Название элемента",
                   "type": "text"
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": "{{webhook}}/gostudy.nostrification.update/",
             "description": "Если не указать id то будет создан новый элемент\n\n  \nТело запроса:  \nID элемента (если не указать то будет создан новый элемент)  \nid  \nДата подачи заявления (Дата)  \napplicationDate  \nДата собеседования (Дата)  \ninterviewDate  \nДата получения (Дата)  \nreceivingDate  \nСрок действия с (Дата)  \nnostDateStart  \nСрок действия по (Дата)  \nnostDateEnd  \nСтатус нострификации (ID статуса)  \nstatusCode  \nКомментарий (Строка)  \ncomment  \nМассив файлов  \nfiles  \nНазвание элемента нострификации  \nname\n\nОтвет:\n\nСтатус  \nststus  \nID нострификации  \nid  \nКод ошибки  \nerror  \nОписание ошибки  \nerror_description\n\nПример, запрос методом POST  \nfunction send_request($url, $param)  \n{  \n$portalUrl = '[https://isdev.gostudy.cz/rest/35835/pqcmdozjg8ap6meb/'](https://isdev.gostudy.cz/rest/35835/pqcmdozjg8ap6meb/');  \n$param = http_build_query($param);  \n$curl = curl_init();  \ncurl_setopt_array($curl, array(  \nCURLOPT_SSL_VERIFYPEER => 0,  \nCURLOPT_POST => 1,  \nCURLOPT_HEADER => 0,  \nCURLOPT_RETURNTRANSFER => 1,  \nCURLOPT_URL => $portalUrl . $url,  \nCURLOPT_POSTFIELDS => $param,  \n));  \n$result = json_decode(curl_exec($curl), true);  \ncurl_close($curl);  \nreturn $result;  \n}\n\n$arParams = array(  \n\"id\" => 39767,  \n\"name\" => 'New name',  \n\"applicationDate\" => \"20.10.2020\"  \n);  \nprint_r(send_request('gostudy.nostrification.update', $arParams));"
@@ -4465,14 +4471,14 @@
           "response": []
         }
       ],
-      "_postman_id": "633b8ac7-2a6f-4392-9cb9-7bf2cd3be93d"
+      "id": "633b8ac7-2a6f-4392-9cb9-7bf2cd3be93d"
     },
     {
       "name": "Партнеры (Partner)",
       "item": [
         {
           "name": "Информация о партнере по id КС - gostudy.partner.get",
-          "_postman_id": "1c13b59b-c6a2-492f-a7f1-45d1fc70b6cb",
+          "id": "1c13b59b-c6a2-492f-a7f1-45d1fc70b6cb",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4505,7 +4511,7 @@
           "response": []
         }
       ],
-      "_postman_id": "86f72106-375f-4f9b-8deb-8285d8f2c23f",
+      "id": "86f72106-375f-4f9b-8deb-8285d8f2c23f",
       "description": "[https://gostudyczechia.atlassian.net/wiki/spaces/DCGS/pages/1102905345/TR+PRT003](https://gostudyczechia.atlassian.net/wiki/spaces/DCGS/pages/1102905345/TR+PRT003)"
     },
     {
@@ -4527,7 +4533,7 @@
               }
             }
           ],
-          "_postman_id": "1487a211-23ad-4a01-a90a-2690b5c2b277",
+          "id": "1487a211-23ad-4a01-a90a-2690b5c2b277",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4536,10 +4542,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "payment_data*\r\n{\r\nPAY_IDENTIFIER*\r\nSUMM*\r\nCURRENCY*\r\nTYPE (222-картой, 220-по счету, 218-наличными)\r\nPAY_WAY (247-проживание, 248-образование, 269-сопр.услуги)\r\nCONTACT_SC_ID (ид студента в КС)\r\nCOMMENT\r\n}",
-              "options": {
-                "raw": {}
-              }
+              "raw": "payment_data*\r\n{\r\nPAY_IDENTIFIER*\r\nSUMM*\r\nCURRENCY*\r\nTYPE (222-картой, 220-по счету, 218-наличными)\r\nPAY_WAY (247-проживание, 248-образование, 269-сопр.услуги)\r\nCONTACT_SC_ID (ид студента в КС)\r\nCOMMENT\r\n}"
             },
             "url": {
               "raw": "{{webhook}}/gostudy.payment.for.obligation/?id=247660",
@@ -4568,10 +4571,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "payment_data*\r\n{\r\nPAY_IDENTIFIER*\r\nSUMM*\r\nCURRENCY*\r\nTYPE (222-картой, 220-по счету, 218-наличными)\r\nPAY_WAY (247-проживание, 248-образование, 269-сопр.услуги)\r\nCONTACT_SC_ID (ид студента в КС)\r\nCOMMENT\r\n}",
-                  "options": {
-                    "raw": {}
-                  }
+                  "raw": "payment_data*\r\n{\r\nPAY_IDENTIFIER*\r\nSUMM*\r\nCURRENCY*\r\nTYPE (222-картой, 220-по счету, 218-наличными)\r\nPAY_WAY (247-проживание, 248-образование, 269-сопр.услуги)\r\nCONTACT_SC_ID (ид студента в КС)\r\nCOMMENT\r\n}"
                 },
                 "url": {
                   "raw": "{{webhook}}/gostudy.payment.for.obligation/?id=247660",
@@ -4682,7 +4682,7 @@
               }
             }
           ],
-          "_postman_id": "0899819e-df52-45bb-91b8-7e126d11604b",
+          "id": "0899819e-df52-45bb-91b8-7e126d11604b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4827,14 +4827,14 @@
           ]
         }
       ],
-      "_postman_id": "8d18e6d5-7ebe-438b-a241-61e81a76a68d"
+      "id": "8d18e6d5-7ebe-438b-a241-61e81a76a68d"
     },
     {
       "name": "Платежные обязательства (Obligations)",
       "item": [
         {
           "name": "ПО по сделке - gostudy.deal.obligation.list",
-          "_postman_id": "1e69dda6-8746-48e1-b50d-ada108d6b431",
+          "id": "1e69dda6-8746-48e1-b50d-ada108d6b431",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4966,7 +4966,7 @@
           ]
         }
       ],
-      "_postman_id": "d0dad408-235c-4f68-8077-f2b817f77a51"
+      "id": "d0dad408-235c-4f68-8077-f2b817f77a51"
     },
     {
       "name": "Почтовые отправления (Mailings)",
@@ -4987,7 +4987,7 @@
               }
             }
           ],
-          "_postman_id": "9574dcc3-85e4-48da-99c9-592b62b8e68c",
+          "id": "9574dcc3-85e4-48da-99c9-592b62b8e68c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5136,7 +5136,7 @@
               }
             }
           ],
-          "_postman_id": "449c902a-bcfa-4dba-a5bd-329e413d5ff4",
+          "id": "449c902a-bcfa-4dba-a5bd-329e413d5ff4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5179,7 +5179,7 @@
               }
             }
           ],
-          "_postman_id": "74131a4a-fe72-47c5-8f5c-e3e313d27e1d",
+          "id": "74131a4a-fe72-47c5-8f5c-e3e313d27e1d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5201,10 +5201,7 @@
                   "description": "тип: 25710 - DHL, 25708 - заказное",
                   "type": "text"
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": {
               "raw": "{{webhook}}/gostudy.mailing.options.set/?id=18511&type_id=25710",
@@ -5247,7 +5244,7 @@
               }
             }
           ],
-          "_postman_id": "9f14df85-2ba8-410f-912d-3bdfbb5c7cd8",
+          "id": "9f14df85-2ba8-410f-912d-3bdfbb5c7cd8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5262,10 +5259,7 @@
                   "value": "52274",
                   "type": "text"
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": {
               "raw": "{{webhook}}/gostudy.mailing.received/?id=53492",
@@ -5300,10 +5294,7 @@
                       "value": "52274",
                       "type": "text"
                     }
-                  ],
-                  "options": {
-                    "formdata": {}
-                  }
+                  ]
                 },
                 "url": {
                   "raw": "{{webhook}}/gostudy.mailing.received/?id=53492",
@@ -5419,10 +5410,7 @@
                       "type": "text",
                       "disabled": true
                     }
-                  ],
-                  "options": {
-                    "formdata": {}
-                  }
+                  ]
                 },
                 "url": {
                   "raw": "{{webhook}}/gostudy.mailing.received/",
@@ -5519,7 +5507,7 @@
           ]
         }
       ],
-      "_postman_id": "9ce798e6-75b0-4f19-bfce-3f54b4b15477"
+      "id": "9ce798e6-75b0-4f19-bfce-3f54b4b15477"
     },
     {
       "name": "Прилеты/приезды (Transfer)",
@@ -5540,7 +5528,7 @@
               }
             }
           ],
-          "_postman_id": "bb2289a4-55f1-4f16-816d-f17b4144d4b3",
+          "id": "bb2289a4-55f1-4f16-816d-f17b4144d4b3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5689,7 +5677,7 @@
               }
             }
           ],
-          "_postman_id": "c3a8c3aa-7af6-4ccf-934d-fd626181ddf6",
+          "id": "c3a8c3aa-7af6-4ccf-934d-fd626181ddf6",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5792,7 +5780,7 @@
         },
         {
           "name": "Обновить прилеты/приезды - gostudy.transfer.update",
-          "_postman_id": "9057363a-2b13-4a83-951f-337aa2c800a1",
+          "id": "9057363a-2b13-4a83-951f-337aa2c800a1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5804,14 +5792,14 @@
           "response": []
         }
       ],
-      "_postman_id": "9c968ceb-a5ec-4ca4-8cbe-674ef3223017"
+      "id": "9c968ceb-a5ec-4ca4-8cbe-674ef3223017"
     },
     {
       "name": "Сделки (Deals)",
       "item": [
         {
           "name": "Список товаров из категории \"Онлайн\" и \"Каникулы\" - gostudy.online.product.list",
-          "_postman_id": "233da2d2-a49e-4bdd-9ca1-696739b6a34d",
+          "id": "233da2d2-a49e-4bdd-9ca1-696739b6a34d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5839,7 +5827,7 @@
               }
             }
           ],
-          "_postman_id": "57a00683-48fa-41b4-80b4-54bfd39c2119",
+          "id": "57a00683-48fa-41b4-80b4-54bfd39c2119",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5879,10 +5867,7 @@
                   "type": "text",
                   "description": "id товара"
                 }
-              ],
-              "options": {
-                "formdata": {}
-              }
+              ]
             },
             "url": {
               "raw": "{{webhook}}/gostudy.deal.productrows.add\n",
@@ -5925,7 +5910,7 @@
         },
         {
           "name": "gostudy.deal.profile.all",
-          "_postman_id": "9855a9b2-2e48-4793-a736-f81337f758d9",
+          "id": "9855a9b2-2e48-4793-a736-f81337f758d9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6057,7 +6042,7 @@
           ]
         }
       ],
-      "_postman_id": "dc2d8177-882a-46dd-b61a-864b6ef967e7"
+      "id": "dc2d8177-882a-46dd-b61a-864b6ef967e7"
     },
     {
       "name": "Специальности (Specialties)",
@@ -6078,7 +6063,7 @@
               }
             }
           ],
-          "_postman_id": "a436d310-2cc6-460a-b8e3-c2e9593dca75",
+          "id": "a436d310-2cc6-460a-b8e3-c2e9593dca75",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6091,14 +6076,14 @@
           "response": []
         }
       ],
-      "_postman_id": "54a94af8-a5f1-4b48-9397-0ad721b30b71"
+      "id": "54a94af8-a5f1-4b48-9397-0ad721b30b71"
     },
     {
       "name": "Товары (Products)",
       "item": [
         {
           "name": "Список товаров - gostudy.product.list",
-          "_postman_id": "30dbaa2b-fbe9-4793-b706-09299ae36e1b",
+          "id": "30dbaa2b-fbe9-4793-b706-09299ae36e1b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6111,7 +6096,7 @@
         },
         {
           "name": "Список товаров категорий \"Онлайн\" и \"Каникулы\" - gostudy.online.product.list",
-          "_postman_id": "96a91bcf-be67-41ff-a620-6c560db6f255",
+          "id": "96a91bcf-be67-41ff-a620-6c560db6f255",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6124,7 +6109,7 @@
           "response": []
         }
       ],
-      "_postman_id": "78c6b2dc-3463-4fa7-84bc-3852df5d367d"
+      "id": "78c6b2dc-3463-4fa7-84bc-3852df5d367d"
     },
     {
       "name": "Условия, Соглашения и Версии Условий (Agreements)",
@@ -6145,7 +6130,7 @@
               }
             }
           ],
-          "_postman_id": "6c2c1844-c6d1-468c-8f20-45a24468c0a2",
+          "id": "6c2c1844-c6d1-468c-8f20-45a24468c0a2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6187,7 +6172,7 @@
               }
             }
           ],
-          "_postman_id": "362619e8-cbae-43cd-8db2-db12007ac33b",
+          "id": "362619e8-cbae-43cd-8db2-db12007ac33b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6326,7 +6311,7 @@
               }
             }
           ],
-          "_postman_id": "592a60c8-802f-475e-b45b-539ba201d420",
+          "id": "592a60c8-802f-475e-b45b-539ba201d420",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6466,7 +6451,7 @@
               }
             }
           ],
-          "_postman_id": "265b1b0c-bbde-4d00-b17b-2231f261ee63",
+          "id": "265b1b0c-bbde-4d00-b17b-2231f261ee63",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6508,7 +6493,7 @@
               }
             }
           ],
-          "_postman_id": "b040accb-f72b-4734-84f6-d756e3070843",
+          "id": "b040accb-f72b-4734-84f6-d756e3070843",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6738,7 +6723,7 @@
         },
         {
           "name": "Студент соглашается - gostudy.agreement.confirmation.add",
-          "_postman_id": "bb8a0c8c-4fe1-4102-9493-d8bdb613cc5a",
+          "id": "bb8a0c8c-4fe1-4102-9493-d8bdb613cc5a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6904,7 +6889,7 @@
         },
         {
           "name": "Партнер соглашается - gostudy.agreement.confirmation.add",
-          "_postman_id": "7c7aad2c-22a9-4421-81ad-a823c9486c03",
+          "id": "7c7aad2c-22a9-4421-81ad-a823c9486c03",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6949,7 +6934,7 @@
         },
         {
           "name": "Добавить версию условий - gostudy.agreement.version.add",
-          "_postman_id": "162688d0-8931-415e-a119-409cb222f7f5",
+          "id": "162688d0-8931-415e-a119-409cb222f7f5",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7213,7 +7198,7 @@
           ]
         }
       ],
-      "_postman_id": "0d521227-ad67-448a-978f-a3353fb7624b",
+      "id": "0d521227-ad67-448a-978f-a3353fb7624b",
       "description": "Работа с условиями, соглашениями и версиями условий студента и партнера."
     },
     {
@@ -7221,7 +7206,7 @@
       "item": [
         {
           "name": "Список файлов - gostudy.file.get",
-          "_postman_id": "199be01a-052a-44ce-b210-aa78e2e53aff",
+          "id": "199be01a-052a-44ce-b210-aa78e2e53aff",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7233,7 +7218,7 @@
           "response": []
         }
       ],
-      "_postman_id": "df059c5d-539f-4c69-ada6-30a4be6e1ec9"
+      "id": "df059c5d-539f-4c69-ada6-30a4be6e1ec9"
     }
   ],
   "event": [
