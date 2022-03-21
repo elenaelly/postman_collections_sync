@@ -3585,6 +3585,53 @@
           "response": []
         },
         {
+          "name": "Занять интервал для консультации сделкой - gostudy.user.meeting.set Copy",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "2e2ec0b6-2105-4289-98dd-0f4fedcb19c0",
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {\r",
+                  "    pm.response.to.have.status(200);\r",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "02fdbd00-d01a-4bf8-a408-38231924c8ea",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{webhook}}/gostudy.user.meeting.set?dealId=22701&meetingId=41737",
+              "host": [
+                "{{webhook}}"
+              ],
+              "path": [
+                "gostudy.user.meeting.set"
+              ],
+              "query": [
+                {
+                  "key": "dealId",
+                  "value": "22701",
+                  "description": "id сделки"
+                },
+                {
+                  "key": "meetingId",
+                  "value": "41737",
+                  "description": "id консультации"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
           "name": "Удалить бронирование интервала для консультации - gostudy.user.meeting.delete",
           "id": "75787cbc-e300-4582-8576-6375d093cefa",
           "protocolProfileBehavior": {
@@ -3718,53 +3765,6 @@
               "body": "{\n    \"result\": null,\n    \"time\": {\n        \"start\": 1646852809.311695,\n        \"finish\": 1646852809.513327,\n        \"duration\": 0.20163178443908691,\n        \"processing\": 0.1682291030883789,\n        \"date_start\": \"2022-03-09T20:06:49+01:00\",\n        \"date_finish\": \"2022-03-09T20:06:49+01:00\"\n    }\n}"
             }
           ]
-        },
-        {
-          "name": "Занять интервал для консультации сделкой - gostudy.user.meeting.set Copy",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "2e2ec0b6-2105-4289-98dd-0f4fedcb19c0",
-                "exec": [
-                  "pm.test(\"Status code is 200\", function () {\r",
-                  "    pm.response.to.have.status(200);\r",
-                  "});"
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "id": "02fdbd00-d01a-4bf8-a408-38231924c8ea",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "url": {
-              "raw": "{{webhook}}/gostudy.user.meeting.set?dealId=22701&meetingId=41737",
-              "host": [
-                "{{webhook}}"
-              ],
-              "path": [
-                "gostudy.user.meeting.set"
-              ],
-              "query": [
-                {
-                  "key": "dealId",
-                  "value": "22701",
-                  "description": "id сделки"
-                },
-                {
-                  "key": "meetingId",
-                  "value": "41737",
-                  "description": "id консультации"
-                }
-              ]
-            }
-          },
-          "response": []
         }
       ],
       "id": "6c521f0e-caef-47b7-a8d9-32c59f37f4c7"
