@@ -3585,7 +3585,7 @@
           "response": []
         },
         {
-          "name": "Занять интервал для консультации сделкой - gostudy.user.meeting.set Copy",
+          "name": "Изменить дату и время консультации - gostudy.user.meeting.updatetime",
           "event": [
             {
               "listen": "test",
